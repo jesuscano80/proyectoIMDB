@@ -1,4 +1,4 @@
- enum Genero{masculino, femenino, sindefinir};
+ enum Genero{masculino="mansculino", femenino="femenino", sindefinir="sindefinir"};
 class Professional{
     
     name: string;
