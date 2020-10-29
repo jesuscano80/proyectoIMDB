@@ -1,4 +1,4 @@
- enum Genero{masculino, femenino, sindefinir};
+ enum Genero{masculino="masculino", femenino="femenino", sindefinir="sin definir"};
 class Professional{
     
     name: string;
@@ -33,3 +33,6 @@ class Professional{
 }
 
 export{Professional,Genero};
+
+var prof= new Professional("jaodsf",12,Genero.masculino,1212,12,"jadf","adf","adf",true,"espa",3,"afdads");
+console.log(prof.toString());
