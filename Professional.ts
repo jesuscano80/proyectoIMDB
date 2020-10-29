@@ -39,4 +39,4 @@
   let actor1 = new Professional ("Maria", 26, "Drama", 65, 1.70, "Castaño", "Marrón","black", false, "Española", 6, "escritora");
 
   
-  actor1.showAttributes()
+  //actor1.showAttributes()
